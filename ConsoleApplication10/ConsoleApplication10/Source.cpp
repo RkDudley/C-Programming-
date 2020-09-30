@@ -1,9 +1,8 @@
 #include <stdio.h>
-/*fuction prototypes*/
 
-void draw_parallel(void);
-void draw_rectiangle(void);
-void draw_base(void);
+void draw_parallel(void);		/*fuction prototypes*/
+void draw_rectiangle(void);		/*fuction prototypes*/
+void draw_base(void);			/*fuction prototypes*/
 
 int main(void){
 	
@@ -21,7 +20,7 @@ int main(void){
 	}
 
 	void draw_base(void){
-		printf("--------\n");
+		printf("________\n");
 	}
 
 	void _draw_rectiangle(void){
